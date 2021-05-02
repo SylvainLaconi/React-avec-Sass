@@ -1,4 +1,5 @@
 import React from "react";
+import Rating from "react-rating";
 
 const Card = ({ cover, title, year, category, description, rate }) => {
   return (
@@ -17,8 +18,7 @@ const Card = ({ cover, title, year, category, description, rate }) => {
           <p>{description}</p>
         </div>
         <div className="rate-container">
-          <h3>Note : </h3>
-          <span>{rate}</span>
+          <Rating initialRating={rate} readonly />
         </div>
       </div>
     </div>

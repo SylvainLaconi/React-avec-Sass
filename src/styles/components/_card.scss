@@ -8,6 +8,7 @@
 
   &:hover {
     transform: scale(1.2);
+    transition: all 200ms ease-in;
   }
 
   .left-container {
@@ -24,11 +25,15 @@
     background-color: $color1;
 
     h2 {
+      display: flex;
+      justify-content: center;
       font-variant: small-caps;
       background-color: $color3;
-      margin: 0;
+      margin: auto;
       color: $color1;
       height: 4rem;
+      line-height: 4rem;
+      font-size: $font-size2;
 
     }
 
