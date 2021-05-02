@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$font-stack: 'Montserrat', sans-serif;
+
+$color1: white;
+$color2: #151212;
+$color3: #cb5858;
+$color4: grey;
+
+$font-size1: 0.8rem;
+$font-size2: 1rem;
+$font-size3: 2rem;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-stack;
+  color: $color2;
+
+  .main-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
