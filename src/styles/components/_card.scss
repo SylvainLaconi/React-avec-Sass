@@ -6,6 +6,10 @@
   margin: 3rem 2rem;
   box-shadow: $color4 2px 2px 2px;
 
+  &:hover {
+    transform: scale(1.2);
+  }
+
   .left-container {
     img {
       width: 300px;
@@ -28,10 +32,33 @@
 
     }
 
+    h3 {
+      font-variant: small-caps;
+      color: $color2;
+      font-size: $font-size2;
+      margin: 0.5rem 0;
+    }
+
+    .info-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
     .description-container p{
       font-size: $font-size1;
       text-align: justify;
       padding: 0 1rem;
+      margin: 0;
+    }
+
+    .rate-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0.5rem;
+
+      h3 {
+        margin: 0;
+      }
     }
   }
 }
